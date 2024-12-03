@@ -23,6 +23,7 @@ for i in range(len(col1)):
 
 col2dict = {}
 
+
 for i in range(len(col2)):
     if col2[i] not in col2dict:
         col2dict[col2[i]] = 1
@@ -36,3 +37,4 @@ for i in range(len(col1)):
         p2res += (col1[i] * col2dict[col1[i]])
 
 print(p2res)
+print(r2)
